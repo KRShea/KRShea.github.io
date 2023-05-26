@@ -13,20 +13,20 @@ baseurl: ""
 lang: en
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone:
+timezone: America/New_York
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: Kris Shea's Page
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: A Collection of Projects I've worked on # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  A Collection of Projects I've worked on
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ""
+url: "https://krshea.github.io"
 
 github:
   username: github_username # change to your github username
@@ -80,7 +80,7 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: https://media.licdn.com/dms/image/C5603AQFTKmloRL9UkA/profile-displayphoto-shrink_800_800/0/1654722044784?e=1690416000&v=beta&t=Xcw1FtAPWFIw1W7KGdEZyt9GMVjhxZAOXwkq1iRsTeo
 
 # boolean type, the global switch for TOC in posts.
 toc: true
