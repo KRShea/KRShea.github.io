@@ -2,6 +2,8 @@
 title: Economist Graphic Detail
 date: 2023-05-29
 tags: [Python, PowerBI, Census.gov]
+image:
+  path: /assets/images/Veteran_Homelessness_Graphic_Detail.png
 ---
 
 
@@ -12,6 +14,7 @@ I used python and Power BI to create this project
 ## The Final Product
 
 {% comment %}
+This is what you can use for images
 ![FinalDraft](/assets/images/Kris_Shea_Project1_Spring2023_3rdDraft%20V3.pdf)
 {% endcomment %}
 
