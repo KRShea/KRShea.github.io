@@ -8,7 +8,7 @@ image:
 
 
 # Veteran Homeless Infographic in the style of the Economist
-Hello I am showing off a project I made. <br>
+Hello I am showing off a cool project I made. <br>
 I used python and Power BI to create this project
 
 ## The Final Product
