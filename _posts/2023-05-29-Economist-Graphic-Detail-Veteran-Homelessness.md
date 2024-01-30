@@ -10,7 +10,7 @@ image:
 
 
 # Veteran Homeless Infographic in the style of the Economist
-Hello test test test I am showing a project I made. <br>
+Hello test test test test I am showing a project I made. <br>
 I used python and Power BI to create this project
 
 ## The Final Product
