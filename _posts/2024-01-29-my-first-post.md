@@ -38,7 +38,7 @@ After searching the around the interwebs I even found a ['contest'](https://www.
 ## Connected Scatter
 Though I should have known better, scrolling through the [Vega examples gallery](https://vega.github.io/vega-lite/examples/) my first thought on tackling this challenge would be to use a connected scatter plot: 
 
-![CS1](/assets/post_files/Napoleons_March/Connected_scatter.png "CS2")
+![CS1](/assets/post_files/Napoleons_March/connected_scatter.png "CS2")
 
 
 
