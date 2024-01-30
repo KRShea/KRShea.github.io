@@ -1,14 +1,13 @@
 ---
-title: Test Post
+title: Napoleon's March to Moscow in Power BI (via Vega-Lite)
 date: 2024-01-29
 tags: [Python, PowerBI, Vega-Lite, Minard]
-#image:
-#  path: /assets/images/Veteran_Homelessness_Graphic_Detail.png
+
 ---
 
 
 # This is my first post!
-Hello I am showing a project I made. <br>
+I have been putting off starting a data analysis blog for months, well now that I am doing an indepenent study at the University of Miami I have no choice.  As part of this course I am required to work on a large data visualization project (to be revealed at a future date), read 3 data analysis books and make a weekly blog post.  Since Napoleon was just released, I thought...<br>
 
 
 Here is a link:
