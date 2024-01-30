@@ -1,7 +1,9 @@
 ---
 title: Economist Graphic Detail
+published: false
 date: 2023-05-29
 tags: [Python, PowerBI, Census.gov]
+published: false
 image:
   path: /assets/images/Veteran_Homelessness_Graphic_Detail.png
 ---
