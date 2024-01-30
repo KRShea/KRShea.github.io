@@ -2,7 +2,8 @@
 title: Napoleon's March to Moscow in Power BI (via Vega-Lite)
 date: 2024-01-29
 tags: [Python, PowerBI, Vega-Lite, Minard]
-
+image:
+  path: /assets/post_files/napoleons_march/post_thumbnail.png
 ---
 
 
@@ -11,6 +12,6 @@ I have been putting off starting a data analysis blog for months, well now that 
 
 
 Here is a link:
-[Download the file here](/assets/post_files/Napoleons_March/Napoleons_March_PBI_Vega-Lite.pbix)
+[Download the file here](/assets/post_files/napoleons_march/Napoleons_March_PBI_Vega-Lite.pbix)
 
 
