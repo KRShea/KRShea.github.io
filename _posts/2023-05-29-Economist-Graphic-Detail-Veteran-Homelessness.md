@@ -7,9 +7,9 @@ published: false
 image:
   path: /assets/images/Veteran_Homelessness_Graphic_Detail.png
 ---
+git c
 
-
-# Veteran Homeless Infographic in the style of the Economist
+# Veteran Homeless Infographic in the style of the Economist test3
 Hello test test test test I am showing a project I made. <br>
 I used python and Power BI to create this project
 
