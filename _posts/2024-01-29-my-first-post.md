@@ -74,8 +74,24 @@ Adding two different text marks looks like this:
 
 Too cluttered!  Since this is a Power BI and Vega Lite project I decided to use Power Query to come up with a solution.
 
+The original troop count data series actually includes three distinct groups that joined together. I decided that I would try to show a text mark for at least the first data point for each group and others in a predetermined interval.
+
+I created a group index in power query using the group by feature.
+
+![gpid](/assets/post_files/Napoleons_March/group_index.png "gpid")
+
+and then created a calculated column (this could have also been a DAX measure) to return the first data point for each group and then each 6 using the modulo operator.
+
+![dsf](/assets/post_files/Napoleons_March/display_survivors_formula.png "dsf")
+
+Passing this column to the dataset which Deneb uses, resulted in the graphic at the top of this page.
+
+There is still some crowding around city names and survivor text marks which I would like to solve in a future update.
+
+Country names are text boxes which I manually arranged.
+
+## Degré Celsius and City Names
+For now  I will be skipping over this portion of the graphic, unfortunately at this time I cannot find a way for Power BI to allow multiple data sources be passed to Deneb.  Given that this graphic is actually composed of three datasets: troop levels, temperatures, and city coordinates I had to hard code the city coordinates in the first graphic, and the temperature chart is a second visual which I lined up with the first.  I do believe it would be possible to combine all three datasets into a super data set and filter data at the mark level, however I'm not sure the juice would be worth the squeeze in this case.
 
 
-## Degré Celsius
-For now  I will be skipping over this portion of the graphic, unfortunately at this time I cannot find a way for Power BI to allow 
 
