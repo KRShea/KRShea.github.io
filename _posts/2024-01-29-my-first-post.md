@@ -8,7 +8,7 @@ image:
 
 # This is my first post!
 
-If you just want to skip ahead and download the Power BI file, [download the file here](/assets/post_files/Napoleons_March/Napoleons_March_PBI_Vega-Lite.pbix).  
+If you just want to skip ahead and download the Power BI file, [here it is](/assets/post_files/Napoleons_March/Napoleons_March_PBI_Vega-Lite.pbix).  
 
 If you care about what I have to say please proceed:
 
@@ -36,10 +36,9 @@ After searching the around the interwebs I even found a ['contest'](https://www.
 
 
 ## Connected Scatter
-Though I should have known better, scrolling through the [Vega examples gallery](https://vega.github.io/vega-lite/examples/) my first thought on tackling this challenge would be to use a connected scatter plot: 
+A great place to start for creating visuals is the [Vega examples gallery](https://vega.github.io/vega-lite/examples/).  Though I should have known better, scrolling through the examples my first thought on tackling this challenge was to use a connected scatter plot: 
 
 ![CS1](/assets/post_files/Napoleons_March/connected_scatter.png "CS2")
-
 
 
 ## Trail Mark
@@ -50,10 +49,33 @@ Looking at the connected scatter, we are obviously not encoding for the number o
 
 
 ## Adding the Map 
-Thanks to [David Bacci's Covid Map](https://github.com/PBI-David/Deneb-Showcase/tree/main/Covid%20Map) I was able to figure out the the topojson needs to be commented in line.
+Unfortunately Power BI does not allow Deneb to connect to any external data sources, which makes maps a bit more challenging.  Browsing the Vega galleries, you can see that the topojson file for a US map is simply linked.  Thanks to [David Bacci's Covid Map](https://github.com/PBI-David/Deneb-Showcase/tree/main/Covid%20Map) I was able to figure out the the topojson needs to be added in line.  
+
+![tpjsn](/assets/post_files/Napoleons_March/topojson_link.png "tpjs")
+
+Navigating to https://vega.github.io/vega/data/world-110m.json I was able to find the appropriate topojson for the project.
+
+and add it in line to my code:
+
+![tpjsnl](/assets/post_files/Napoleons_March/topojson_inline.png "tpjsl")
+
+resulting in a time series overlaid on a map!
+
+![mr](/assets/post_files/Napoleons_March/map_result.png "mr")
 
 
 ## Refining
 
-To be expanded upon later, I used formulas within Power BI to change the frequency with which the number of survivors would display.
+One feature I wanted my version of this map to have, was the troop counts in addition to the city names.
+
+Adding two different text marks looks like this:
+
+![dstm](/assets/post_files/Napoleons_March/display_survivors_too_many.png "dstm")
+
+Too cluttered!  Since this is a Power BI and Vega Lite project I decided to use Power Query to come up with a solution.
+
+
+
+## Degré Celsius
+For now  I will be skipping over this portion of the graphic, unfortunately at this time I cannot find a way for Power BI to allow 
 
