@@ -20,10 +20,10 @@ timezone: America/New_York
 
 title: Kris Shea's Page
 
-tagline: A Collection of Projects I've worked on # it will display as the sub-title
+tagline: A Collection of projects I've worked on # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A Collection of Projects I've worked on
+  A Collection of projects I've worked on
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://krshea.github.io"
