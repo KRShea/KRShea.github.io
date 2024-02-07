@@ -1,5 +1,5 @@
 ---
-title: Data Collection to Map Costco's Global Expansionn
+title: Data Collection to Map Costco's Global Expansion
 date: 2024-02-07
 tags: [PowerBI, Power Query, JSON, Costco]
 ##image:
