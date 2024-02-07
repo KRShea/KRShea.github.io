@@ -1,14 +1,14 @@
 ---
 title: Data Collection to Map Costco's Global Expansionn
-date: 2024-02-06
+date: 2024-02-07
 tags: [PowerBI, Power Query, JSON, Costco]
 ##image:
 ##  path: ![test](/assets/post_files/Napoleons_March/post_thumbnail.png)
 ---
 
-# Work in Progress
 
 ## Introduction
+
 In this article I discuss "scraping" $80 data, and replicate the SQL Row_Number and LAG functions as well as a recursive CTE in Power Query.  
 
 Not long ago I saw a great chart from the Economist showing the world's economic center of gravity changing over time.  Continuing with the theme of maps with time series data on them from my previous post, I thought this kind of chart would tie in great with a project I have been working on related to Costco.  Previously I replicated Charles Joseph Minard's Napoleon's march graphic with Vega Lite, and now I decided to collect some of my own data and try to do something similar to the Economist with Vega, which is a lower level grammar as compared to Vega-Lite.  While the data transformations I show here may be more easily accomplished with SQL or Python, my goal is to complete this analysis using Power BI where possible.  This post will focus on the data gathering stage of recreating this visual.
@@ -65,7 +65,7 @@ Costco lists store counts each year in the financial statements.  The first inte
 
 
 
-## Reshaping the International Data
+## Reshaping 
 
 So now we have the store counts by year, but our Costco USA data is by store, includes open date, and geographic location.
 
