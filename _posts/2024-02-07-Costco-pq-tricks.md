@@ -14,9 +14,10 @@ In this article I discuss "scraping" $80 data, and replicate the SQL Row_Number 
 Not long ago I saw a great chart from the Economist showing the world's economic center of gravity changing over time.  Continuing with the theme of maps with time series data on them from my previous post, I thought this kind of chart would tie in great with a project I have been working on related to Costco.  Previously I replicated Charles Joseph Minard's Napoleon's march graphic with Vega Lite, and now I decided to collect some of my own data and try to do something similar to the Economist with Vega, which is a lower level grammar as compared to Vega-Lite.  While the data transformations I show here may be more easily accomplished with SQL or Python, my goal is to complete this analysis using Power BI where possible.  This post will focus on the data gathering stage of recreating this visual.
 
 
-## US Locations
-
 ![test](/assets/post_files/costco_power_query/economist_inspiration.png)
+
+
+## US Locations
 
 While admittedly Costco's center of gravity is certainly less interesting than the World's Economic Center of gravity, I know there are some Costco superfans out there who may feel differently.  
 
