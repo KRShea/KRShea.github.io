@@ -26,7 +26,7 @@ To cover the learn something new requirement I've decided to focus on learning t
 Power BI has had the ability to display ggplot visuals for years now, but as far as I currently know, to display tool tips and allow interaction ggplot visuals require development as actual custom visuals that need to be imported.  With the Deneb visual the interaction and tooltips only need to be declared in Vega.  I will admit, though, when comparing the 100+ lines of code I had to write for this graphic to the 15 or so lines ggplot needed for comparable graphics, I had thoughts of starting over. The JSON structure is also not as user-friendly as ggplot's syntax.  I'm hard-headed though, and really admire some of the work I've seen done in Vega.  Maybe this will be my gateway drug to D3.
 
 ## Inspiration 
-I'm currently reading the Visual Display of Quantitative Information by Edward Tufte, more on that another time, but among the first few pages Tufte sings the praises of Charles Joseph Minard's figurative map of Napoleon's Invasion of Russia.  I've always had enjoyed looking at maps, add a time-series on it and now you've got my attention:
+I'm currently reading the Visual Display of Quantitative Information by Edward Tufte, more on that another time, but among the first few pages Tufte sings the praises of Charles Joseph Minard's figurative map of Napoleon's Invasion of Russia.  I've always enjoyed looking at maps, add a time-series on it and now you've got my attention:
 
 ![Minards Original1](/assets/post_files/Napoleons_March/minard_original.png "Minards Original2")
 
