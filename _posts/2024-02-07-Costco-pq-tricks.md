@@ -68,7 +68,7 @@ Costco lists store counts each year in the financial statements.  The first inte
 
 ## Reshaping 
 
-So now we have the store counts grouped by year, but our Costco USA data is by at the store level, and includes open date, and geographic location.
+So now we have the store counts grouped by year, but our Costco USA data is at the store level, and includes open date, and geographic location.
 
 We need to know the change in international stores from year to year.  In SQL I would use the LAG operator, which is not available in Power Query, but we can recreate this easily enough by creating an index or row number for each country  and doing a self-join:
 
@@ -109,7 +109,7 @@ After completing our join, removing a few columns and cleaning a couple things u
 
 
 
-Again though, the data is not in the same format as the USA store data.  The USA data has one row per store with each's identifying characteristics.   Since we know for example that 2 stores were built in Canada in 2005, in order to match the USA data in shape there should be two rows in 2005 for Canada (and three in 2006, seven in 2007 etc).  This can be fixed with a similar technique to creating the group index.  By using the List.Repeat function, we can nested list for each Country/Year row which contains n number of blank rows.  Interestingly in SQL I would do this with a recursive CTE and find the Power Query to be more intuitive, which is rare.
+Again though, the data is not in the same format as the USA store data.  The USA data has one row per store with each's identifying characteristics.   Since we know for example that 2 stores were built in Canada in 2005, in order to match the USA data in shape there should be two rows in 2005 for Canada (and three in 2006, seven in 2007 etc).  This can be fixed with a similar technique to creating the group index.  By using the List.Repeat function, we can create a nested list for each Country/Year row which contains n number of blank rows.  Interestingly in SQL I would do this with a recursive CTE and find the Power Query to be more intuitive, which is rare.
 
 ![test](/assets/post_files/costco_power_query/pq_list_repeat.png)
 
