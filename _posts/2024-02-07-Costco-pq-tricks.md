@@ -1,5 +1,5 @@
 ---
-title: Data Collection to Map Costco's Global Expansion
+title: "Plotting a Center of Gravity: Data Collection"
 date: 2024-02-07
 tags: [PowerBI, Power Query, JSON, Costco]
 ##image:
@@ -9,7 +9,7 @@ tags: [PowerBI, Power Query, JSON, Costco]
 
 ## Introduction
 
-In this article I discuss "scraping" $80 data, and replicate the SQL Row_Number and LAG functions as well as a recursive CTE in Power Query.  
+In this article I discuss "scraping" $80 data, and replicate the SQL <span style="color: orange;">Row_Number</span> and <span style="color: orange;">LAG</span> functions as well as a <span style="color: orange;">recursive CTE</span> in Power Query.  
 
 Not long ago I saw a great chart from the Economist showing the world's economic center of gravity changing over time.  Continuing with the theme of maps with time series data on them from my previous post, I thought this kind of chart would tie in great with a project I have been working on related to Costco.  Previously I replicated Charles Joseph Minard's Napoleon's march graphic with Vega Lite, and now I decided to collect some of my own data and try to do something similar to the Economist with Vega, which is a lower level grammar as compared to Vega-Lite.  While the data transformations I show here may be more easily accomplished with SQL or Python, my goal is to complete this analysis using Power BI where possible.  This post will focus on the data gathering stage of recreating this visual.
 
@@ -68,11 +68,11 @@ Costco lists store counts each year in the financial statements.  The first inte
 
 ## Reshaping 
 
-So now we have the store counts by year, but our Costco USA data is by store, includes open date, and geographic location.
+So now we have the store counts grouped by year, but our Costco USA data is by at the store level, and includes open date, and geographic location.
 
-We need to know the change in stores from year to year.  In SQL I would use the LAG operator, which is not available in Power Query, but we can recreate this easily enough by creating an index or row number for each country  and doing a self-join:
+We need to know the change in international stores from year to year.  In SQL I would use the LAG operator, which is not available in Power Query, but we can recreate this easily enough by creating an index or row number for each country  and doing a self-join:
 
-First let's bring the data into Power Query and group by country using the "All Rows" operation.  In SQL terms here we are creating the partition.
+First let's bring the data into Power Query and group by country using the "All Rows" operation.  In SQL terms here we are creating partitioning the data.
 
 ![test](/assets/post_files/costco_power_query/pq_group_by.png)
 
@@ -103,7 +103,7 @@ Within Power Query we can merge the table to itself (self-join) using a left out
 
 
 
-After completing our join, removing a few columns and cleaning a couple things up with some very simple transformations our data looks like this.  Stores Built is simply the left table value - the right table result.
+After completing our join, removing a few columns and cleaning a couple things up with some very simple transformations our data looks like this.  Stores Built is simply the left table value minus the right table value.
 
 ![test](/assets/post_files/costco_power_query/pq_stores_built.png)
 
