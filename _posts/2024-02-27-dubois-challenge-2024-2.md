@@ -19,7 +19,7 @@ Du Bois' hand drawn data graphics were included in the 1900 Paris Exposition and
 
 
 
-## The Graphic
+## The graphic
 <table align="center" width="100%">
   <tr>
     <td style="text-align: center;">
@@ -107,14 +107,14 @@ I had seen a few other people post some amazing entries of this graphic in the c
 ![No tear](/assets/post_files/dubois_challenge_2024_2/watercolor.png)
 
 
-## The Download
+## The download
 
 Here is the [Power BI](/assets/post_files/dubois_challenge_2024_2/dubois_challenge_2024_2.pbix) file.  
 
 And just for fun the [Excel](/assets/post_files/dubois_challenge_2024_2/dubois_challenge_2024_2.pbix) version I stopped working on.
 
 
-## The Code 
+## The code 
 ```
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
