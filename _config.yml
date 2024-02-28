@@ -18,7 +18,7 @@ timezone: America/New_York
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Kris Shea's Page
+title: Kristopher Shea's Page
 
 tagline: A collection of projects I've worked on # it will display as the sub-title
 
@@ -37,7 +37,7 @@ github:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Kris Shea
+  name: Kristopher Shea
   email: kshea88@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
