@@ -132,7 +132,7 @@ We now have a dataset that can easily be appended to the USA data:
 
 
 
-The next step will be to calculate the geograpgic center by year in DAX which will be covered in a future post.
+The next step will be to calculate the geographic center by year in DAX which will be covered in a future post.
 
 
 
