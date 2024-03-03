@@ -20,10 +20,12 @@ For starters I really hope Dr. Tufte never sees this review.
 
 I can see why it is so popular though, the book is not as cranky as I expected and fairly easy to read.  Much of it reads as if it could have been written last week, and much (but not all) of the advice still needs to be heard.  As I went through the book I couldn't help but feel like a person watching Casablanca (or the Matrix) for the first time in 2024.  What may seem as a cliché at this point is because it inspired many other works (including my first post on this blog of course).
 
-In the book Tufte provides a tour of famous infographics throughout history, including the Yu Chi Thu map engraved in 1137 which I am hoping to see when I visit Xi'an this summer and Charles Joseph Minard's map of Napoleon's Russia campaign which I've already written about.  
+In the book Tufte provides a tour of famous infographics throughout history, including the Yu Ji Tu map engraved in 1130's China which I am hoping to see when I visit Xi'an this summer and Charles Joseph Minard's map of Napoleon's Russia campaign which I've already written about.  
 
 ![Yu Chi Thu map](/assets/post_files/visual_display_review/yu_chi_thu.jpg){: width="500" height="400"}
+<figcaption align="center">Yu Ji Tu 禹迹图, or Map of the Tracks of Yu the Great</figcaption>
 
+<br>
 
 He also covers a few mathematical formulas for evaluating the "effectiveness" of a chart, but a notable omission is any discussion of <span style="color: orange;">
 color theory</span>, or **pre-attentive attributes**.
