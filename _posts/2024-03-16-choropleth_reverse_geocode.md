@@ -24,7 +24,7 @@ A chloropleth, or filled map, lets us fill the boundaries of a map (like a state
 
 Imagine you have a dataset which includes latitude and longitude coordinates for any number of things, like cities named Washington (there are 88 in the US), or in the case of this post Costco locations.  
 
-If you have an address and want to create a map at the state level, this is pretty easy, but if you want to create a map at the county level or any other unique topology things start to get complicated fast.  Imagine manually looking up 600+ or more coordinates manually to determine what county, congressional district, or other organization they lie in.  Another potential issue is that the map file you use may not use the same id variable that is available elsewhere.
+If you have an address and want to create a map at the state level, this is pretty easy, but if you want to create a map at the county level or any other unique topology things start to get complicated fast.  Imagine manually looking up 600 or more coordinates to determine what county, congressional district, or other organization they lie in.  Another potential issue is that the map file you use may not use the same id variable that is available elsewhere.
 
 Reverse geocoding allows us to lookup where a point falls on a map file and return associated parent variable.
 
@@ -92,7 +92,7 @@ Using the filtered topojson and Puerto Rico projection, we can draw a new layer 
 <br>
 ![dual projections2](/assets/post_files/choropleth_reverse_geocode/dual_projections2.png)
 
-
+<br>
 Is Puerto Rico too big here?  Maybe, but Puerto Rico has 78 counties (Florida has 67 for comparison).  Any smaller and the counties would be invisible, and maybe Puerto Rico deserves some extra spotlight after being left off AlbersUsa maps for so long.
 
 ## Points on a Choropleth
