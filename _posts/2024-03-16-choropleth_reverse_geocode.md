@@ -80,13 +80,16 @@ Power BI has a shape map visual in preview status which allows the uploading of 
 
 #Vega to the rescue:
 
-In the same specification in Vega, and using the same data, multiple projections can be defined:  
+In the same specification in Vega, and using the same data, multiple projections can be defined:
+<br>  
 ![dual projections](/assets/post_files/choropleth_reverse_geocode/dual_projections.png)
 
 We can also filter our topojson:
+<br>
 ![counties filter](/assets/post_files/choropleth_reverse_geocode/counties_pr.png)
 
-Using the filtered topojson and Puerto Rico projection, we can draw a new layer on top of our AlbersUSA projection
+Using the filtered topojson and Puerto Rico projection, we can draw a new layer on top of our AlbersUSA projection:
+<br>
 ![dual projections2](/assets/post_files/choropleth_reverse_geocode/dual_projections2.png)
 
 
