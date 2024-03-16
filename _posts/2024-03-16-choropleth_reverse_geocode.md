@@ -97,7 +97,7 @@ Is Puerto Rico too big here?  Maybe, but Puerto Rico has 78 counties (Florida ha
 
 ## Points on a Choropleth
 
-Personally I don't these points look great (see the thumbnail for this post), but this was a challenge I gave myself since it's something I've tried to accomplish in the past, and I've seen some Power BI thought leaders lamenting that Power BI has no visual that can create choropleths with geo-points overlaid.  I recently saw a solution solving this problem by layering two Azure maps visuals on top of each other and playing with opacity, but I think this is a better solution if your organization allows custom visuals.
+Personally I don't think these points look great (see the thumbnail for this post), but this was a challenge I gave myself since it's something I've tried to accomplish in the past, and I've seen some Power BI thought leaders lamenting that Power BI has no visual that can create choropleths with geo-points overlaid.  I recently saw a solution solving this problem by layering two Azure maps visuals on top of each other and playing with opacity, but I think this is a better solution if your organization allows custom visuals.
 
 I will elaborate more on this later, as the key here was mostly on the data prep side, as long as your data is shaped correctly Vega handles this quite easily with layering.
 
