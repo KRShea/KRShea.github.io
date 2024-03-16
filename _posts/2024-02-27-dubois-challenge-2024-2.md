@@ -111,7 +111,7 @@ I had seen a few other people post some amazing entries of this graphic in the c
 
 Here is the [Power BI](/assets/post_files/dubois_challenge_2024_2/dubois_challenge_2024_2.pbix) file.  
 
-And just for fun the [Excel](/assets/post_files/dubois_challenge_2024_2/dubois_challenge_2024_2.pbix) version I stopped working on.
+And just for fun the [Excel](/assets/post_files/dubois_challenge_2024_2/dubois_challenge_2024_2_xl.xlsx) version I stopped working on.
 
 
 ## The code 
