@@ -110,7 +110,7 @@ More on this later, but the downloadable file does have working cross-highlighti
 
 ![deneb doc](/assets/post_files/choropleth_reverse_geocode/your_risk.png)
 
-Here is an example of the cross-highliting in action:
+Here is an example of the cross-highlighting in action:
 
 ![cross highlight](/assets/post_files/choropleth_reverse_geocode/crosshighlight_example.png)
 
