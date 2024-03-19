@@ -72,7 +72,7 @@ Disclaimer: I did have to manually map one store location using this methodology
 What's missing here?:
 ![albers_usa_nopr](/assets/post_files/choropleth_reverse_geocode/albers_usa_nopr.png)
 
-When you were a kid did you think Alaska was south of California (right next to Hawaii)?  You can thank the AlbersUSA projection, which is the most common projection of the US that allows us to look at each state on a smaller map canvas.  Puerto Rico may not be a state, but I think la isla del encanto deserves the same spot light don't you?  Especially since I have data that needs to be plotted there.  
+When you were a kid did you think Alaska was south of California (right next to Hawaii)?  You can thank the AlbersUSA projection, which is the most common projection of the US that allows us to look at each state on a smaller map canvas.  Puerto Rico may not be a state, but I think la isla del encanto deserves the same spotlight don't you?  Especially since I have data that needs to be plotted there.  
 
 Power BI has a shape map visual in preview status which allows the uploading of topojson files, but it did not allow using the AlbersUSA projection with this particular topojson and I've found it to make my workbooks painfully slow when loading county level data.
 
@@ -116,13 +116,13 @@ Here is an example of the cross-highlighting in action:
 
 
 
-## The download
+## The Download
 
 Here is the [Power BI](/assets/post_files/choropleth_reverse_geocode/reverse_geocode_choropleth.pbix) file.  
 
 
 
-## The Vega code
+## The Vega Code
 ```
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
