@@ -3,7 +3,7 @@ title: Napoleon's March to Moscow in Power BI (via Vega-Lite)
 date: 2024-01-29
 tags: [PowerBI, Vega-Lite, Minard]
 image:
-  path: ./assets/post_files/Napoleons_March/post_thumbnail.png
+  path: https://krshea.github.io/assets/post_files/Napoleons_March/post_thumbnail.png
 ---
 
 ## The Download
