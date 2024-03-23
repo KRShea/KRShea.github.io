@@ -28,7 +28,7 @@ Power BI has had the ability to display ggplot visuals for years now, but as far
 ## Inspiration 
 I'm currently reading the Visual Display of Quantitative Information by Edward Tufte, more on that another time, but among the first few pages Tufte sings the praises of Charles Joseph Minard's figurative map of Napoleon's Invasion of Russia.  I've always enjoyed looking at maps, add a time-series on it and now you've got my attention:
 
-![Minards Original1](/assets/post_files/Napoleons_March/minard_original.png)
+![Minards Original1](./assets/post_files/Napoleons_March/minard_original.png)
 
 
 After searching around the interwebs I even found a ['contest'](https://www.datavis.ca/gallery/re-minard.php)
