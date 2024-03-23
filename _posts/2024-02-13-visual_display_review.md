@@ -22,7 +22,7 @@ I can see why it is so popular though, the book is not as cranky as I expected a
 
 In the book Tufte provides a tour of famous infographics throughout history, including the Yu Ji Tu map engraved in 1130's China which I am hoping to see when I visit Xi'an this summer and Charles Joseph Minard's map of Napoleon's Russia campaign which I've already written about.  
 
-![Yu Chi Thu map](/assets/post_files/visual_display_review/yu_chi_thu.jpg){: width="500" height="400"}
+![Yu Chi Thu map](./assets/post_files/visual_display_review/yu_chi_thu.jpg){: width="500" height="400"}
 <figcaption align="center">Yu Ji Tu 禹迹图, or Map of the Tracks of Yu the Great</figcaption>
 
 <br>
@@ -266,7 +266,7 @@ Another potential application of one of Tufte's ideas, double functioning labels
 
 If there's one thing I agree with in the book, jittering effects (or pattern fills in Excel) need to be eliminated.  Can you imagine being in a meeting and saying "no no bananas are the horizontal lines, peaches are plaid".  
 
-![test](/assets/post_files/visual_display_review/jitter.png){: width="240" height="200"}
+![test](./assets/post_files/visual_display_review/jitter.png){: width="240" height="200"}
 
 'Chart Junk' are all the extra visual elements in charts and graphs that are not necessary to comprehend the information presented. These things distract from the data itself and might be artistic accoutrement or as simple as grid lines which are too dense or just plain unnecessary to comprehend the graphic. While I could delve into the many ways that chart junk clutters our visual field, I'll keep it concise: according to Tufte's stringent standards, **if it aint data it's chart junk!**
 

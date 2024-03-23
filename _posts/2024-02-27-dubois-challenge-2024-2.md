@@ -3,7 +3,7 @@ title: Dubois Challenge 2024_2
 date: 2024-02-27
 tags: [PowerBI, Vega, Power Query, W.E.B. Du Bois]
 image:
-  path: /assets/post_files/dubois_challenge_2024_2/post_thumbnail.png
+  path: https://krshea.github.io/assets/post_files/dubois_challenge_2024_2/post_thumbnail.png
 ---
 
 
@@ -23,12 +23,12 @@ Du Bois' hand drawn data graphics were included in the 1900 Paris Exposition and
 <table align="center" width="100%">
   <tr>
     <td style="text-align: center;">
-      <img src="/assets/post_files/dubois_challenge_2024_2/dubois_original.png" width="150" height="350" alt="Original DuBois Challenge Visualization" />
+      <img src="./assets/post_files/dubois_challenge_2024_2/dubois_original.png" width="150" height="350" alt="Original DuBois Challenge Visualization" />
       <br>
       <figcaption>Original</figcaption>
     </td>
     <td style="text-align: center;">
-      <img src="/assets/post_files/dubois_challenge_2024_2/post_thumbnail.png" width="150" height="350" alt="Power BI Recreation of DuBois Challenge Visualization"/>
+      <img src="./assets/post_files/dubois_challenge_2024_2/post_thumbnail.png" width="150" height="350" alt="Power BI Recreation of DuBois Challenge Visualization"/>
       <br>
       <figcaption>Power BI Recreation</figcaption>
     </td>
@@ -54,11 +54,11 @@ If W.E.B. Du Bois had drawn the entire x-scale this chart would need be about a 
 
 When I first decided to recreate this graphic I actually thought it would be a very quick win.  So quick in fact I even started to recreate it in Excel:
 
-![WIP Excel Version](/assets/post_files/dubois_challenge_2024_2/excel_attempt.png)
+![WIP Excel Version](./assets/post_files/dubois_challenge_2024_2/excel_attempt.png)
 
 (since Excel can't do a vertical area chart, the fill is actually a hundred or so small lines with their thickness expanded):
 
-![Excel Little Lines](/assets/post_files/dubois_challenge_2024_2/excel_attempt_small_lines.png)
+![Excel Little Lines](./assets/post_files/dubois_challenge_2024_2/excel_attempt_small_lines.png)
 
 This was getting out of hand quickly and my goal lately has been learning Vega so in the end I decided to switch gears.
 
@@ -72,29 +72,29 @@ Based on my previous discussion about axis breaks, Du Bois' page tear was a stro
 
 In my opinion, the graphic doesn't work without it:
 
-![No tear](/assets/post_files/dubois_challenge_2024_2/no_rip.png)
+![No tear](./assets/post_files/dubois_challenge_2024_2/no_rip.png)
 
 
 The fact that the data only has 9 data rows presents a challenge for creating such a granular look like the original.
 
 I knew a sine wave would generate a torn look, so I created a table of inputs to create a sine wave with a variable amplitude and wavelength to generate a series.
 
-![Sine Inputs](/assets/post_files/dubois_challenge_2024_2/sine_inputs.png)
+![Sine Inputs](./assets/post_files/dubois_challenge_2024_2/sine_inputs.png)
 
 
 I used the List.Repeat function, which I've discussed in more detail previously, to generate rows based on these inputs so that 20 is repeated 20 times, 10 is repeated 10 times, etc so each wave can make a complete cycle.
 
-![Sine Gen](/assets/post_files/dubois_challenge_2024_2/sine_generation.png)
+![Sine Gen](./assets/post_files/dubois_challenge_2024_2/sine_generation.png)
 
 Here is the result, looks like it could be a torn piece of paper to me!
 
-![Sine Wave](/assets/post_files/dubois_challenge_2024_2/sine_wave.png)
+![Sine Wave](./assets/post_files/dubois_challenge_2024_2/sine_wave.png)
 
 I created a repeating index of 1 to 9 in the sine wave data and added an index to our source data to join the two.  This allowed me to use a single dataset in Deneb to plot two levels of detail with multiple scales.  
 
 Please see my use of filter to create two distinct datasets and distinct scales from the original data in the code below.
 
-![joined_data](/assets/post_files/dubois_challenge_2024_2/joined_data.png)
+![joined_data](./assets/post_files/dubois_challenge_2024_2/joined_data.png)
 
 
 
@@ -104,7 +104,7 @@ This is about as low tech a solution as it gets, but I thought it would be worth
 
 I had seen a few other people post some amazing entries of this graphic in the challenge, but to date I haven't seen one mimicking the painted texture of the original.  I increased the opacity of the area chart and threw an MS paint image I made with the paint brush behind it.  I wasn't sure about this.  What do you think?
 
-![No tear](/assets/post_files/dubois_challenge_2024_2/watercolor.png)
+![No tear](./assets/post_files/dubois_challenge_2024_2/watercolor.png)
 
 
 ## The download
