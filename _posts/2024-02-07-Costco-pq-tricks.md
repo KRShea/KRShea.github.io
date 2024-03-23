@@ -28,7 +28,7 @@ Fortunately Costco.com lists the open date of all of its US stores.
 ![test](./assets/post_files/costco_power_query/costco_store_data_sample.png)
 
 
-At first I thought I would need to write a Python script to scrape the website, but as I inspected the page source I found that every store location is available as a variable called allWarehouseList.  All I needed to do was copy this variable and save as JSON which can be accessed [here](./assets/post_files/costco_power_query/costco_stores_usa.json).  A certain data vendor charges $80 for this data by the way, so if you were ever so inclined to buy it, now there's no need!
+At first I thought I would need to write a Python script to scrape the website, but as I inspected the page source I found that every store location is available as a variable called allWarehouseList.  All I needed to do was copy this variable and save as JSON which can be accessed [here](/assets/post_files/costco_power_query/costco_stores_usa.json).  A certain data vendor charges $80 for this data by the way, so if you were ever so inclined to buy it, now there's no need!
 
 
 ![test](./assets/post_files/costco_power_query/costco_page_source.png)

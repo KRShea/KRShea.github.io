@@ -80,7 +80,7 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: /assets/images/524A0350- Web Size.jpg
+avatar: https:/krshea.github.io/assets/images/524A0350- Web Size.jpg
 
 # boolean type, the global switch for TOC in posts.
 toc: true
