@@ -43,7 +43,7 @@ A great place to start for creating visuals is the [Vega examples gallery](https
 
 
 ## Trail Mark
-Looking at the connected scatter, we are obviously not encoding for the number of soldiers variable.  Reviewing some of the revisioning Minard contest entries (specifically the ggplot entry) I realized I needed something akin to the path mark, Vega has this but calls it a trail mark:
+Looking at the connected scatter plot, we are obviously not encoding for the number of soldiers variable.  Reviewing some of the revisioning Minard contest entries (specifically the ggplot entry) I realized I needed something akin to the path mark, Vega has this but calls it a trail mark:
 
 ![TR1](/assets/post_files/Napoleons_March/trail_mark.png "TR2")
 
