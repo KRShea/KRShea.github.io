@@ -3,7 +3,7 @@ title: Napoleon's March to Moscow in Power BI (via Vega-Lite)
 date: 2024-01-29
 tags: [PowerBI, Vega-Lite, Minard]
 image:
-  path: /assets/post_files/Napoleons_March/post_thumbnail.png
+  path: ./assets/post_files/Napoleons_March/post_thumbnail.png
 ---
 
 ## The Download
@@ -39,30 +39,30 @@ After searching around the interwebs I even found a ['contest'](https://www.data
 ## Connected Scatter
 A great place to start for creating visuals is the [Vega examples gallery](https://vega.github.io/vega-lite/examples/).  Though I should have known better, scrolling through the examples my first thought on tackling this challenge was to use a connected scatter plot: 
 
-![CS1](/assets/post_files/Napoleons_March/connected_scatter.png "CS2")
+![CS1](./assets/post_files/Napoleons_March/connected_scatter.png "CS2")
 
 
 ## Trail Mark
 Looking at the connected scatter plot, we are obviously not encoding for the number of soldiers variable.  Reviewing some of the revisioning Minard contest entries (specifically the ggplot entry) I realized I needed something akin to the path mark, Vega has this but calls it a trail mark:
 
-![TR1](/assets/post_files/Napoleons_March/trail_mark.png "TR2")
+![TR1](./assets/post_files/Napoleons_March/trail_mark.png "TR2")
 
 
 
 ## Adding the Map 
 Unfortunately Power BI does not allow Deneb to connect to any external data sources, which makes maps a bit more challenging.  Browsing the Vega galleries, you can see that the topojson file for a US map is simply linked.  Thanks to [David Bacci's Covid Map](https://github.com/PBI-David/Deneb-Showcase/tree/main/Covid%20Map) I was able to figure out the topojson needs to be added in line.  
 
-![tpjsn](/assets/post_files/Napoleons_March/topojson_link.png "tpjs")
+![tpjsn](./assets/post_files/Napoleons_March/topojson_link.png "tpjs")
 
 Navigating to https://vega.github.io/vega/data/world-110m.json I was able to find the appropriate topojson for the project.
 
 and add it in line to my code:
 
-![tpjsnl](/assets/post_files/Napoleons_March/topojson_inline.png "tpjsl")
+![tpjsnl](./assets/post_files/Napoleons_March/topojson_inline.png "tpjsl")
 
 resulting in a time series overlaid on a map!
 
-![mr](/assets/post_files/Napoleons_March/map_result.png "mr")
+![mr](./assets/post_files/Napoleons_March/map_result.png "mr")
 
 
 ## Refining
@@ -71,7 +71,7 @@ One feature I wanted my version of this map to have, was the soldier counts in a
 
 Adding two different text marks looks like this:
 
-![dstm](/assets/post_files/Napoleons_March/display_survivors_too_many.png "dstm")
+![dstm](./assets/post_files/Napoleons_March/display_survivors_too_many.png "dstm")
 
 Too cluttered!  Since this is a Power BI and Vega Lite project I decided to use Power Query to come up with a solution.
 
@@ -79,11 +79,11 @@ The original soldier count data series actually includes three distinct groups t
 
 I created a group index in Power Query using the group by feature.
 
-![gpid](/assets/post_files/Napoleons_March/group_index.png "gpid")
+![gpid](./assets/post_files/Napoleons_March/group_index.png "gpid")
 
 and then created a calculated column (this could have also been a DAX measure) to return formatted text for the first data point for each group and 6 intervals, and a blank for other points.
 
-![dsf](/assets/post_files/Napoleons_March/display_survivors_formula.png "dsf")
+![dsf](./assets/post_files/Napoleons_March/display_survivors_formula.png "dsf")
 
 Passing this column to the dataset which Deneb uses resulted in the graphic at the top of this page.
 
