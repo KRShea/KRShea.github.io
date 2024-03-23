@@ -15,7 +15,7 @@ In short though, among many other things, born in 1868  W.E.B. Du Bois was a Bla
 
 Du Bois' hand drawn data graphics were included in the 1900 Paris Exposition and are still inspiring people today as made evident by Anthony Starks' <b>#DuBoisChallenge2024</b> which I am participating in by means of this post.
 
-[Here](https://www.smithsonianmag.com/history/first-time-together-and-color-book-displays-web-du-bois-visionary-infographics-180970826/) is a post from the smithsonian discussing some of these data graphics in more detail.
+[Here](https://www.smithsonianmag.com/history/first-time-together-and-color-book-displays-web-du-bois-visionary-infographics-180970826/) is a post from the Smithsonian discussing some of these data graphics in more detail.
 
 
 
