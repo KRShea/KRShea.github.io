@@ -3,7 +3,7 @@ title: Reverse Geocoding in Power BI (and not forgetting Puerto Rico)
 date: 2024-03-16
 tags: [PowerBI, Vega, Python, Choropleth, Custom Visuals]
 image:
-  path: /assets/post_files/choropleth_reverse_geocode/post_thumbnail.png
+  path: https://krshea.github.io/assets/post_files/choropleth_reverse_geocode/post_thumbnail.png
 ---
 
 
@@ -30,11 +30,11 @@ Reverse geocoding allows us to lookup where a point falls on a map file and retu
 
 In this case I am using a topojson of US counties and looking up the id (or fips code):
 
-![topo_example](/assets/post_files/choropleth_reverse_geocode/topojson_county.png)
+![topo_example](./assets/post_files/choropleth_reverse_geocode/topojson_county.png)
 
 Here is a snapshot of running the Python code in Power Query.  If this were a production project I would make this transformation further upstream,but the convenience can't be denied when protyping things.
 
-![run py script](/assets/post_files/choropleth_reverse_geocode/run_python_script_pq.png)
+![run py script](./assets/post_files/choropleth_reverse_geocode/run_python_script_pq.png)
 
 ```
 # 'dataset'from power query (automatically created) holds the input data for this script
@@ -63,34 +63,34 @@ dataset['fips_code'] = dataset.apply(lambda row: map_coordinates_to_fips(row['la
 ```
 
 Disclaimer: I did have to manually map one store location using this methodology, which can be seen if you dig into the pbi file.  It seems that my topojson may not have the resolution to capture the little peninsula this Costco is on.  Still I think 1/600+ isn't a bad deal.
-![run py script](/assets/post_files/choropleth_reverse_geocode/richmond_ca_costco.png)
+![run py script](./assets/post_files/choropleth_reverse_geocode/richmond_ca_costco.png)
 
 
 
 ## No te olvides de Puerto Rico
 
 What's missing here?:
-![albers_usa_nopr](/assets/post_files/choropleth_reverse_geocode/albers_usa_nopr.png)
+![albers_usa_nopr](./assets/post_files/choropleth_reverse_geocode/albers_usa_nopr.png)
 
 When you were a kid did you think Alaska was south of California (right next to Hawaii)?  You can thank the AlbersUSA projection, which is the most common projection of the US that allows us to look at each state on a smaller map canvas.  Puerto Rico may not be a state, but I think la isla del encanto deserves the same spotlight don't you?  Especially since I have data that needs to be plotted there.  
 
 Power BI has a shape map visual in preview status which allows the uploading of topojson files, but it did not allow using the AlbersUSA projection with this particular topojson and I've found it to make my workbooks painfully slow when loading county level data.
 
-![pbi_shape_map](/assets/post_files/choropleth_reverse_geocode/pbi_shape_map.png)
+![pbi_shape_map](./assets/post_files/choropleth_reverse_geocode/pbi_shape_map.png)
 
 #Vega to the rescue:
 
 In the same specification in Vega, and using the same data, multiple projections can be defined:
 <br>  
-![dual projections](/assets/post_files/choropleth_reverse_geocode/dual_projections.png)
+![dual projections](./assets/post_files/choropleth_reverse_geocode/dual_projections.png)
 
 We can also filter our topojson:
 <br>
-![counties filter](/assets/post_files/choropleth_reverse_geocode/counties_pr.png)
+![counties filter](./assets/post_files/choropleth_reverse_geocode/counties_pr.png)
 
 Using the filtered topojson and Puerto Rico projection, we can draw a new layer on top of our AlbersUSA projection:
 <br>
-![dual projections2](/assets/post_files/choropleth_reverse_geocode/dual_projections2.png)
+![dual projections2](./assets/post_files/choropleth_reverse_geocode/dual_projections2.png)
 
 <br>
 Is Puerto Rico too big here?  Maybe, but Puerto Rico has 78 counties (Florida has 67 for comparison).  Any smaller and the counties would be invisible, and maybe Puerto Rico deserves some extra spotlight after being left off AlbersUsa maps for so long.
@@ -108,11 +108,11 @@ More on this later, but the downloadable file does have working cross-highlighti
 
 
 
-![deneb doc](/assets/post_files/choropleth_reverse_geocode/your_risk.png)
+![deneb doc](./assets/post_files/choropleth_reverse_geocode/your_risk.png)
 
 Here is an example of the cross-highlighting in action:
 
-![cross highlight](/assets/post_files/choropleth_reverse_geocode/crosshighlight_example.png)
+![cross highlight](./assets/post_files/choropleth_reverse_geocode/crosshighlight_example.png)
 
 
 
