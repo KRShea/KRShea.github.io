@@ -15,7 +15,7 @@ This is a book that’s "a mile wide and an inch thick", and I honestly can't wa
 
 <b>I highly recommend it.</b>
 
-Due to its comprehensive nature, reviewing this book comprehensively is challenging.  There are 29 chapters which cover a wide array of data visualization techniques.  I plan on touching on the points which I found the most helpful or where I learned something particularly interesting.  To be clear I learned a lot from this book, but I won't be mentioning everything.
+Due to its comprehensive nature, reviewing this book is somewhat challenging.  There are 29 chapters which cover a wide array of data visualization techniques.  I plan on touching on the points which I found the most helpful or where I learned something particularly interesting.  To be clear, I learned a lot from this book, but I won't be mentioning everything.
 
 Despite the name "Fundamentals" I think even advanced data visualization practitioners would benefit from reading this book.  There are many techniques discussed that I've used in the past, even simple ones, where I learned something new or a new way of looking at a problem.
 
@@ -33,7 +33,7 @@ Throughout the book the reader is given examples of ugly, bad, and wrong charts.
 
 ![Ugly Bad Wrong](./assets/post_files/fundamentals_dataviz_review/ugly_bad_wrong.jpeg)
 
-This distinction throughout the book can save people from making critical mistakes when visualizing data (though to be honest I strongly prefer the screaming cat in Big Book of Dashboards to make this distinction):
+This distinction throughout the book can save people from making critical mistakes when visualizing data (though to be honest I strongly prefer the screaming cat in Big Book of Dashboards to make this distinction).
 
 ![Screaming Cat](./assets/post_files/fundamentals_dataviz_review/cat.png)
 
@@ -42,7 +42,7 @@ I have been wanting to update the graphic at the end of this section with the la
 
 One thing the bad criteria saved me from doing was creating a stacked population pyramid to update a stacked area chart graph I made in the past detailing veteran homelessness.
 
-In the bad example, Dr. Wilke illustrates that the number of female passengers can't be compared from one age bucket to another so readers can only accurately determine the total number of male passengers:
+In the bad example, Dr. Wilke illustrates that the number of female passengers can't be compared from one age bucket to another so readers can only accurately determine the total number of male passengers.
 
 
 ![Bad Stacked Bar](./assets/post_files/fundamentals_dataviz_review/bad_stacked_bar.png)
@@ -112,7 +112,7 @@ I actually think this is great advice and this example is a beautiful illustrati
 
 ## The Case for Pie Charts
 
-There is a popular meme template I was reminded of when reading this book, I don't think I should publicly post the original, but it looks something like this:
+There is a popular meme template I was reminded of when reading this book, I don't think I should publicly post the original, but it looks something like this.
 
 
 ![Pie Iq](./assets/post_files/fundamentals_dataviz_review/pie_iq.png)
@@ -125,7 +125,7 @@ In the end Dr. Wilke makes a compelling case for the pie chart, and even gives a
 
 ![Pie Guide](./assets/post_files/fundamentals_dataviz_review/pie_guide.png)
 
-In this example of parties in the German Bundestag in the 70s a pie chart more succinctly conveys that the SPD and FDP coalition had more seats than the CDU/CSU (considered a single party):
+In this example of parties in the German Bundestag in the 70s a pie chart more succinctly conveys that the SPD and FDP coalition had more seats than the CDU/CSU (considered a single party).
 
 ![Pie vs Bars](./assets/post_files/fundamentals_dataviz_review/pie_vs_bars.png)
 
