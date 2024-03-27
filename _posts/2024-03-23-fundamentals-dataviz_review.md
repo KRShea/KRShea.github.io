@@ -9,7 +9,7 @@ published: true
 
 ## Introduction
 
-Fundamentals of Data Visualization by Dr. Claus Wilke is one of those famous technical books from O'Reilly Publishing with a white background and some animal on it.  This time it’s a Parrot.  
+<i>Fundamentals of Data Visualization</i> by Dr. Claus Wilke is one of those famous technical books from O'Reilly Publishing with a white background and some animal on it.  This time it’s a Parrot.  
 
 This is a book that’s "a mile wide and an inch thick", and I honestly can't wait to read it again, or certain chapters at least as needed. 
 
@@ -119,7 +119,7 @@ There is a popular meme template I was reminded of when reading this book, I don
 
 The joke is that sometimes the uneducated opinion and the expert opinion end up being similar, and conflict with the opinion of the average practioner. 
 
-Many data visualization enthusiasts, myself included, cringe at the thought of adding a pie chart to a PowerPoint presentation requested by someone who hasn't read Storytelling with Data (a great book in its own right).
+Many data visualization enthusiasts, myself included, cringe at the thought of adding a pie chart to a PowerPoint presentation requested by someone who hasn't read <i>Storytelling with Data</i> (another great book).
 
 In the end Dr. Wilke makes a compelling case for the pie chart, and even gives a great rubric for when to use one.  In short Pie charts are great when you are trying to show something as a percent of a whole, or show simple fractions like 1/2.
 
