@@ -2,7 +2,7 @@
 title: Book Review - Fundamentals of Data Visualization
 date: 2024-03-23
 tags: [Book Review]
-published: false
+published: true
 ---
 
 ![Book Cover](./assets/post_files/fundamentals_dataviz_review/book_cover.png)
@@ -63,13 +63,15 @@ My original graphic (below).  While this is a stacked area chart using total amo
 
 I am simply going to post two quotes from the book here for my key takeaways.   
 
+<b> Takeaways 1 and 2 </b>
 
 ![Takeaway1](./assets/post_files/fundamentals_dataviz_review/takeaway1.png)
 
 
 ![Takeaway2](./assets/post_files/fundamentals_dataviz_review/takeaway2.jpeg)
 
-The first item is the only time in the book Dr. Wilke actually asks us to implement anything from his book, I have to admit that axis label font size is usually the last thing I think of when making charts.
+
+The first item is the only time in the book Dr. Wilke actually asks us to implement anything from his book, I have to admit that axis label font size is usually the last thing I think of when making charts. 
 
 The other completely unrelated item is with regard to log scales.  I use log scales all the time, but I never really thought about a rule for using them.  Usually I just use a log scale when I have data of different magnitudes.
 
@@ -77,6 +79,16 @@ Below is a chart I recently created. While the need for a log scale in this inst
 
 
 ![Population Desnsity](./assets/post_files/fundamentals_dataviz_review/pop_density.png)
+
+<b> Takeaway 3 </b>
+
+![Takeaway3](./assets/post_files/fundamentals_dataviz_review/takeaway3.png)
+
+The final takeaway, which appears among the first pages of this book, and is reiterated multiple times throughout is that as much as possible of your graphics production should be automated.  This principle applies to data pipelines as well as the actual graphic production.
+
+I try to follow a code first approach in my work and when designing graphics (or at least eliminate as many manual steps as possible), but automation is often a luxury.  Ideally every graphic and data analysis pipeline I do will be immediately reproducible, but sometimtes the reality is you have a couple hours to put something together and have to resort to Excel and PowerPoint/Illustrator.  I am supremely thankful for the skills I have learned in Adobe Illustrator sometimes when I need to make something look nice quickly. 
+
+Posts in this blog so far have followed a code first approach.  In my entry for the Du Bois challenege I was asked why I didn't use Illustrator to produce the tear and opted for code.  One of the reasons was reading this book, the other was a personal challenge.  Although that graphic took probably 20 times longer to develop in Vega than it would have in illustrator, anyone can reproduce it, and I can use the technique again elsewhere. 
 
 
 ## Rules are meant to be broken
