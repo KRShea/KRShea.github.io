@@ -97,7 +97,7 @@ In my prior post I discussed the AlbersUsa projection, which Dr. Wike derides in
 
 Dr. Wilke suggests an alternative projection showing Alaska at its true size.
 
-Maybe I'm biased because again no Puerto Rico, but I am not a fan of the good version.  Alaska <i>is</i> too small in the usual Albers projection, but there isn't much going on in 90% of the state.  As someone recently reminded me, data visualization often requires making trade-offs.  In some cases I'm willing to make the sacrifice of having an unrealistically small Alaska to have a better layout on my canvas.
+Maybe I'm biased because again, no Puerto Rico, but I am not a fan of the good version.  Alaska <i>is</i> too small in the usual Albers projection, but there isn't much going on in 90% of the state.  As someone recently reminded me, data visualization often requires making trade-offs.  In some cases I'm willing to make the sacrifice of having an unrealistically small Alaska to have a better layout on my canvas.
 
 
 
