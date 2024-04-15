@@ -42,7 +42,7 @@ Convallis a cras semper auctor neque vitae. Ut tristique et egestas quis ipsum s
 
 
 
-<iframe title="COSTCO Analysis pre_final" width="1150" height="2300" src="https://app.powerbi.com/view?r=eyJrIjoiYmRiNDI0MjUtNjMyYi00YmI2LTk4NWMtMTI2YTIwMjliZjVhIiwidCI6ImRiOTA3NTYwLTZhNDktNDk2Ni1hNzgwLTY5ZDMyODg4NGYwYiIsImMiOjJ9&pageName=ReportSection5ccecb01ea7477038ba1" frameborder="0" allowFullScreen="true"></iframe>
+<iframe title="COSTCO Analysis pre_final" width="800" height="1500" src="https://app.powerbi.com/view?r=eyJrIjoiYmRiNDI0MjUtNjMyYi00YmI2LTk4NWMtMTI2YTIwMjliZjVhIiwidCI6ImRiOTA3NTYwLTZhNDktNDk2Ni1hNzgwLTY5ZDMyODg4NGYwYiIsImMiOjJ9&pageName=ReportSection5ccecb01ea7477038ba1" frameborder="0" allowFullScreen="true"></iframe>
 
 
 
@@ -58,7 +58,7 @@ Convallis a cras semper auctor neque vitae. Ut tristique et egestas quis ipsum s
 
 Convallis a cras semper auctor neque vitae. Ut tristique et egestas quis ipsum suspendisse ultrices gravida dictum. Consectetur libero id faucibus nisl tincidunt eget nullam non nisi. Ut morbi tincidunt augue interdum velit euismod. Cras fermentum odio eu feugiat pretium nibh ipsum. Non sodales neque sodales ut etiam sit. Nullam non nisi est sit amet facilisis magna etiam tempor. Nisi lacus sed viverra tellus in. Ultricies mi quis hendrerit dolor magna eget est. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper. Id faucibus nisl tincidunt eget nullam non nisi est. Elementum nisi quis eleifend quam adipiscing vitae. Sit amet porttitor eget dolor morbi non arcu risus quis. Convallis convallis tellus id interdum velit laoreet id donec. Nulla facilisi cras fermentum odio eu feugiat pretium nibh.
 
-<iframe title="COSTCO Analysis pre_final" width="1150" height="2300" src="https://app.powerbi.com/view?r=eyJrIjoiYmRiNDI0MjUtNjMyYi00YmI2LTk4NWMtMTI2YTIwMjliZjVhIiwidCI6ImRiOTA3NTYwLTZhNDktNDk2Ni1hNzgwLTY5ZDMyODg4NGYwYiIsImMiOjJ9&pageName=ReportSectioncaa6a21065a7a30ec4be" frameborder="0" allowFullScreen="true"></iframe>
+<iframe title="COSTCO Analysis pre_final" width="1150" height="2500" src="https://app.powerbi.com/view?r=eyJrIjoiYmRiNDI0MjUtNjMyYi00YmI2LTk4NWMtMTI2YTIwMjliZjVhIiwidCI6ImRiOTA3NTYwLTZhNDktNDk2Ni1hNzgwLTY5ZDMyODg4NGYwYiIsImMiOjJ9&pageName=ReportSectioncaa6a21065a7a30ec4be" frameborder="0" allowFullScreen="true"></iframe>
 
 
 
