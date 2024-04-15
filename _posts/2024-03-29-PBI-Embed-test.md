@@ -2,7 +2,7 @@
 title: Power BI Embed Test
 date: 2024-03-29
 tags: [PowerBI, Test]
-published: false
+published: true
 ##image:
 ##  path: https://krshea.github.io/assets/post_files/Napoleons_March/post_thumbnail.png
 ---
