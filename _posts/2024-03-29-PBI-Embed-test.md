@@ -3,8 +3,8 @@ title: WIP Power BI Embed Test
 date: 2024-03-29
 tags: [PowerBI, Test]
 published: true
-##image:
-##  path: https://krshea.github.io/assets/post_files/Napoleons_March/post_thumbnail.png
+image:
+  path: https://krshea.github.io/assets/post_files/costco_analysis/post_thumbnail.png
 ---
 
 <style>
@@ -50,9 +50,7 @@ Convallis a cras semper auctor neque vitae. Ut tristique et egestas quis ipsum s
 
 Convallis a cras semper auctor neque vitae. Ut tristique et egestas quis ipsum suspendisse ultrices gravida dictum. Consectetur libero id faucibus nisl tincidunt eget nullam non nisi. Ut morbi tincidunt augue interdum velit euismod. Cras fermentum odio eu feugiat pretium nibh ipsum. Non sodales neque sodales ut etiam sit. Nullam non nisi est sit amet facilisis magna etiam tempor. Nisi lacus sed viverra tellus in. Ultricies mi quis hendrerit dolor magna eget est. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper. Id faucibus nisl tincidunt eget nullam non nisi est. Elementum nisi quis eleifend quam adipiscing vitae. Sit amet porttitor eget dolor morbi non arcu risus quis. Convallis convallis tellus id interdum velit laoreet id donec. Nulla facilisi cras fermentum odio eu feugiat pretium nibh.
  
-
-![Excel1](./assets/post_files/costco_analysis/chart_more_crowded_stores.png)
-
+<img src="./assets/post_files/costco_analysis/chart_more_crowded_stores.png" alt="Excel1" width="500"/>
 
 ## Next Section
 
