@@ -10,12 +10,12 @@ published: true
 
 ## Introduction
 
-I just finished reading <i>Data Feminism</i> by Catherine D’Ignazio and Lauren Klein.
+<i>Data Feminism</i> is writen by Catherine D’Ignazio and Lauren Klein.
 
-If I were asked me what a feminist is prior to reading this book I’d probably say something similar to Merriam-Webster’s (and apparently Beyonce’s)  definition:
+If I were asked what a feminist is prior to reading this book I’d probably say something similar to Merriam-Webster’s (and apparently Beyonce’s) definition:
 “a person who believes in the political, social, and economic equality of the sexes.”
 
-Post reading <i>Data Feminism</i>… well the definition above still works but, apparently we need to include being an antiracist, having keen data literacy skills, and continuous improvement.   In Data Feminism, feminism is a scientific discipline, and that’s not a bad thing. The scientific method strives for continuous learning and rejection of ideas we can prove to be false.  
+Post reading <i>Data Feminism</i>… well the definition above still works but, apparently we need to include being an antiracist, having keen data literacy skills, and continuous improvement.  In the book, feminism is a scientific discipline, and that’s not a bad thing. The scientific method strives for continuous learning and rejection of ideas we can prove to be false.  
 
 At first I didn’t understand why a book on feminism would focus so much on racial issues and injustices, but after reading this book I understand that “a rising tide floats all boats”.  Advocating for one can help us all.  Uncovering and countering biases or injustices in one area of the world will teach us how to notice and counter them in others.
  
