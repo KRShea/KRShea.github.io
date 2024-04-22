@@ -79,13 +79,13 @@ Costco has three stores in Puerto Rican municipios with median incomes under $30
 Costco counties also appear to be on average slightly more educated and slightly younger  than non-Costco counties. 
 
 
- <img src="./assets/post_files/costco_analysis/demograhpic_summary.png" alt="Excel1" width="800"/>
+ <img src="./assets/post_files/costco_analysis/demographic_summary.png" alt="Excel1" width="800"/>
 
 What about more “average” cities?
 
 Multiple cities have started facebook pages to convince Costco to open in their neighborhoods and even signed change.com petitions.
 
-Social media discussions abound about what a city needs to do to get a Costco.  Redditors in high income Asheville, North Carolina posit that Costco doesn’t build a store in their town because there are no plots of land big enough, but Sam’s Club is there with a similarly sized store.  Maybe Costco said “this town ain’t big enough for the two of us”.
+Social media discussions abound about what a city needs to do to get a Costco.  Redditors in high income Asheville, North Carolina (Buncombe County) posit that Costco doesn’t build a store in their town because there are no plots of land big enough, but Sam’s Club is there with a similarly sized store.  Maybe Costco said “this town ain’t big enough for the two of us”.
 
 Or perhaps you may be curious why Albermale County, home of the University of Virginia, has a Costco while Alachua County, home of the University of Florida does not. Both are similarly sized College towns.   
 
