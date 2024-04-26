@@ -94,9 +94,6 @@ The interactive map and tables below detail some of these findings.  Counties in
 
 ## Conclusion
 
-Costco still has lots of room to grow in the United States and there are plenty of suitable counties for Costco to continue its expansion.  The real question is if Costco will make a "come to Costco" facebook page owning American city rejoice or continue its inroads into Europe, Asia, and Oceania.<span class="red-square">&#9632;</span>
+Costco still has lots of room to grow in the United States and there are plenty of suitable counties for Costco to continue its expansion.  The real question is if Costco will make a "come to Costco" facebook page owning American city rejoice or continue its inroads into Europe, Asia, and Oceania. <span class="red-square">&#9632;</span>
 
 
-
-## Links
-https://www.reddit.com/r/asheville/comments/kodlka/whats_stopping_costco_from_coming_to_the/
