@@ -76,13 +76,13 @@ Conventional wisdom says that Costco tends to target more affluent areas than do
 
 Costco has three stores in Puerto Rican municipios with median incomes under $30,000 though.  Puerto Rico is however one of the densest territories in the world, San Juan municipio has over 7,000 people per square mile well above the US county median of 551 people per square mile.
 
-Costco counties also appear to be on average slightly more educated and slightly younger  than non-Costco counties. 
+Costco counties also appear to be on average slightly more educated and slightly younger than non-Costco counties. 
 
 What about more “average” cities?
 
 Multiple cities have started facebook pages to convince Costco to open in their neighborhoods and even signed change.com petitions.
 
-Social media discussions abound about what a city needs to do to get a Costco.  Redditors in high income Asheville, North Carolina (Buncombe County) posit that Costco doesn’t build a store in their town because there are no plots of land big enough, but Sam’s Club is there with a similarly sized store.  Maybe Costco said “this town ain’t big enough for the two of us”.
+Social media discussions abound about what a city needs to do to get a Costco.  Redditors in relatively high income and density Asheville, North Carolina (Buncombe County) posit that Costco doesn’t build a store in their town because there are no plots of land big enough, but Sam’s Club is there with a similarly sized store.  Maybe Costco said “this town ain’t big enough for the two of us”.
 
 Or perhaps you may be curious why Albermale County, home of the University of Virginia, has a Costco while Alachua County, home of the University of Florida does not. Both are similarly sized College towns.   
 
