@@ -1,7 +1,7 @@
 ---
-title: WIP Power BI Embed Test
-date: 2024-03-29
-tags: [PowerBI, Test]
+title: An Interactive History and Demographic Analysis of Costco
+date: 2024-04-30
+tags: [PowerBI, Vega, Python, Costco]
 published: true
 image:
   path: https://krshea.github.io/assets/post_files/costco_analysis/post_thumbnail.png
@@ -86,14 +86,13 @@ Social media discussions abound about what a city needs to do to get a Costco.  
 
 Or perhaps you may be curious why Albermale County, home of the University of Virginia, has a Costco while Alachua County, home of the University of Florida does not. Both are similarly sized College towns.   
 
-The interactive map and tables below detail some of these findings.  Counties in the map are shaded according to a machine learning model which scored a county’s suitability for a Costco according to some of the variables highlighted above.
+The interactive map and tables below detail some of these findings.  Counties in the map are shaded according to a machine learning model which scored a county’s suitability for a Costco utilizing data from the US census.  Variables used in the model by county were median household income, population density, percent of the population with a bachelors degree, and median age.  Other key variables not used in the machine learning model are also available for exploration.  
 
 
-<iframe title="COSTCO Analysis pre_final" width="1150" height="2500" src="https://app.powerbi.com/view?r=eyJrIjoiYmRiNDI0MjUtNjMyYi00YmI2LTk4NWMtMTI2YTIwMjliZjVhIiwidCI6ImRiOTA3NTYwLTZhNDktNDk2Ni1hNzgwLTY5ZDMyODg4NGYwYiIsImMiOjJ9&pageName=ReportSectioncaa6a21065a7a30ec4be" frameborder="0" allowFullScreen="true"></iframe>
-
+<iframe title="COSTCO Analysis pre_final" width="1150" height="2500" src="https://app.powerbi.com/view?r=eyJrIjoiYmRiNDI0MjUtNjMyYi00YmI2LTk4NWMtMTI2YTIwMjliZjVhIiwidCI6ImRiOTA3NTYwLTZhNDktNDk2Ni1hNzgwLTY5ZDMyODg4NGYwYiIsImMiOjJ9&pageName=ReportSectionf657d39eb9cf5e60222a" frameborder="0" allowFullScreen="true"></iframe>
 
 ## Conclusion
 
-Costco still has lots of room to grow in the United States and there are plenty of suitable counties for Costco to continue its expansion.  The real question is if Costco will make a "come to Costco" facebook page owning American city rejoice or continue its inroads into Europe, Asia, and Oceania. <span class="red-square">&#9632;</span>
+Costco still has lots of room to grow in the United States and there are plenty of suitable counties for Costco to continue its expansion.  The real question is if Costco will make a "come to Costco" facebook page owning American city rejoice or continue its inroads into Europe, Asia, and Oceania. 
 
 
