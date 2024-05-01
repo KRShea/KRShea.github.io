@@ -14,9 +14,9 @@ The right tool should be used for the job.  When I started working on my Costco 
 
 This project was very experimental and I really didn’t know how well everything would work out when I first started. If I could go back would I do it in Power BI again?  Yes, but only because of everything I've learned.  I feel like I leveled up my visualization skills 5 times while working on this project, I also learned a few new things in Power BI.  
 
-My personal Power BI Pro license is costing me $10 a month though which I need to publish the report to web, a small sum, but if I had produced this 100% in Vega and html/css while hosting the data on github I'd pay nothing out of pocket.  Alternately if I had used Tableau public, I'd also be paying nothing out of pocket, though I am not sure everything I've done can be accomplished in Tableau.  Microsoft should really offer something similar to Tableau Public.
+My personal Power BI Pro license is costing me $10 a month though which I need to publish the report to web, a small sum, but if I had produced this 100% in Vega and html/css while hosting the data on github I'd pay nothing out of pocket.  Alternately if I had used Tableau public, I'd also be paying nothing out of pocket, though I am not sure everything I've done can be accomplished in Tableau.  Microsoft should really offer something similar to Tableau public.
 
-I could probably write a book about everything I've learned about Vega, Power BI (and Costco) over the last 4 months.  This article will touch on the creation of the key visuals and a few Power Bi techniques used in my Costco article and visual demographic analysis.
+I could probably write a book about everything I've learned about Vega, Power BI, and Costco over the last 4 months.  This article will touch on the creation of the key visuals and a few Power Bi techniques used in my Costco article and visual demographic analysis.
 
 
 ## Interactive globe
@@ -61,6 +61,7 @@ An example of North American stores appearing in the North Pole when rotating th
 
 
 Shout out to my LinkedIn connection and Vega guru Andrzej Leszkiewicz for helping with the solution!  I encoded the opacity to be a function of the map rotation parameter.  If the points are not within 180 degrees of the rotation parameter they will be invisible.  Note that if I had brought the data in as geojson this step would not be necessary, but it seems that in Power BI/Deneb, this is not possible.
+<br>
 ![image7](./assets/post_files/costco_making_of/image7.png){:width="400px"}
 
 
@@ -102,7 +103,7 @@ See the crosswalk tables below:
 
 What I am calling jitter charts went through multiple iterations to arrive at the charts seen below.  Though I am happy with the result, I believe that there is still room for improvement on color scheming and creating the spacing for the variables which require plotting on a log axis.
 
-I wanted to take full advantage of Vega and Deneb's interaction capabilities in this project. Users can hover over any point any see what county they are looking at with a tool tip.  When investigating an outlier a click on the point will highlight it on the other charts as seen below.  This interaction carries over to the entire report.  Clicking a county on the map will high light it on the scatter charts and vice versa:
+I wanted to take full advantage of Vega and Deneb's interaction capabilities in this project. Users can hover over any point any see what county they are looking at with a tool tip.  When investigating an outlier a click on the point will highlight it on the other charts as seen below.  This interaction carries over to the entire report.  Clicking a county on the map will highlight it on the scatter charts and vice versa:
 ![image14](./assets/post_files/costco_making_of/image14.png){:width="600px"}
 
 
@@ -111,7 +112,7 @@ I was also able to make the legend interactive.  Clicking on one of the market g
 ![image15](./assets/post_files/costco_making_of/image15.png){:width="600px"}
 
 
-In Power BI core visuals cross-highlighting happens behind the scenes, in Deneb the hightlightStatus is made available to the user (note that Power BI core scatterplots do not support cross-highlighting at the time of this post).
+In Power BI core visuals cross-highlighting happens behind the scenes, in Deneb the "highlightStatus" is made available to the user (note that Power BI core scatterplots do not support cross-highlighting at the time of this post).
 <br>
 ![image16](./assets/post_files/costco_making_of/image16.png){:width="600px"}
 
