@@ -84,7 +84,7 @@ Multiple cities have started facebook pages to convince Costco to open in their 
 
 Social media discussions abound about what a city needs to do to get a Costco.  Redditors in relatively high income and density Asheville, North Carolina (Buncombe County) posit that Costco doesn’t build a store in their town because there are no plots of land big enough, but Sam’s Club is there with a similarly sized store.  Maybe Costco said “this town ain’t big enough for the two of us”.
 
-Or perhaps you may be curious why Albermale County, home of the University of Virginia, has a Costco while Alachua County, home of the University of Florida does not. Both are similarly sized College towns.   
+Or perhaps you may be curious why Albemarle County, home of the University of Virginia, has a Costco while Alachua County, home of the University of Florida does not. Both are similarly sized College towns.   
 
 The interactive map and tables below detail some of these findings.  Counties in the map are shaded according to a machine learning model which scored a county’s suitability for a Costco utilizing data from the US census.  Variables used in the model by county were median household income, population density, percent of the population with a bachelors degree, and median age.  Other key variables not used in the machine learning model are also available for exploration.  
 
