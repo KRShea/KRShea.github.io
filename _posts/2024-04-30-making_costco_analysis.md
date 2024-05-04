@@ -168,10 +168,21 @@ My fourth attempt is fairly close to my final version, at first I built these to
 Python code to create x offsets:
 ![jitter_py](./assets/post_files/costco_making_of/jitter_py.png){:width="600px"}
 
+## Wrapping Up
 
+Is this project 100% complete?  I don't think so, there are a few points I acknowledge that still have room for improvement, but I do think I've created a great base for improving upon.  I plan to take a break from this project for a while, but revisit in October when Costco releases their 2024 financial statements.  
 
+So what do I think could be improved upon?  
 
+Color selection for one.  I really struggled finding a color scheme that would be distinguishable on the US map and also look good on the jitter charts.  I'm not sure I succeeded in both goals. I think the "lawn green" I used looks great on the map, but too vibrant on the jitter charts.  I originally tried to use the Economist's color palette for the map, but perhaps because the Economist's colors are more muted (or because I am red/green color blind) the store location markers got lost in the orange of the map.  
 
+One other item which I am not completely satisfied with is way the population density graph turned out.  I used the log10 of population density in the logistic regression for this report and in my preliminary charts.  While using the log transformed data was the right choice for the machine learning model, I knew that log10 of population density wouldn't be as meaningful for users in the charts.  I focused too much attention on the log transformed data and as can be seen below, the original data, even plotted on a log scale looks more clumped together.  The python script I wrote to pre-calculate the x-offsets will need some fine tuning.
 
+![image18](./assets/post_files/costco_making_of/image19.png){:width="600px"}
 
+Finally, the demographic analysis is almost entirely interactive, but I am not sure I made this clear to users.  Users can click "none" in the map to highlight counties without "Costcos" (or any other item in the legend), sort the county level table either by any attribute present, or click any county in the jitter chart to highlight it on the other charts and map.  I had planned to make this interaction more apparent by using bookmarks in Power BI to create a sort of walkthrough, but ran out of time to work on it.  It may be a good thing that I didn't try to create the walkthrough using bookmarks though.  Walkthroughs using bookmarks rely on a large number of text boxes conditionally hidden in a dashboard.  I already have a large number of elements on the demographic analysis page which made moving and formatting items slow and at times challenging.
+
+In all though, despite the shortcomings, I am happy with the result of this project and everything I've learned.  At the beginning of this year, I worked on recreating Napoleon's March through Moscow using Vega Lite.  What took me the better part of a weekend then would probably take an hour or two now, I simply feel more confident using Deneb, Vega, and Vega Lite.  Also, what started as a mission to learn Vega Lite, ended with me knowing that I have a preference for Vega (I sense a blog post coming soon about why I prefer Vega over Vega Lite, but where Vega Lite shines).  My biggest takeaway from this whole process was learning how to create custom highlighted visuals in Power BI using Vega.  I now feel like I can conquer any visualization challenge that comes my way in a business dashboard moving forward.
+
+In the end I started my first blog post stating that as a Power BI user, I've had Tableau envy for its ability to create more bespoke visuals.  After 4 months learning Vega and Deneb, I can condidently say that envy is gone.
 
