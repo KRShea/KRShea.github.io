@@ -184,5 +184,5 @@ Finally, the demographic analysis is almost entirely interactive, but I am not s
 
 In all though, despite the shortcomings, I am happy with the result of this project and everything I've learned.  At the beginning of this year, I worked on recreating Napoleon's March through Moscow using Vega Lite.  What took me the better part of a weekend then would probably take an hour or two now, I simply feel more confident using Deneb, Vega, and Vega Lite.  Also, what started as a mission to learn Vega Lite, ended with me knowing that I have a preference for Vega (I sense a blog post coming soon about why I prefer Vega over Vega Lite, but where Vega Lite shines).  My biggest takeaway from this whole process was learning how to create custom highlighted visuals in Power BI using Vega.  I now feel like I can conquer any visualization challenge that comes my way in a business dashboard moving forward.
 
-In the end I started my first blog post stating that as a Power BI user, I've had Tableau envy for its ability to create more bespoke visuals.  After 4 months learning Vega and Deneb, I can condidently say that envy is gone.
+In the end I started my first blog post stating that as a Power BI user, I've had Tableau envy for its ability to create more bespoke visuals.  After 4 months learning Vega and Deneb, I can confidently say that envy is gone.
 
